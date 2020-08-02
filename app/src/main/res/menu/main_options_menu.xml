@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/account_menu">
+        <item
+            android:title="бла бла бла бла бла" />
+    </group>
+
+    <group android:id="@+id/lessons_menu">
+        <item android:id="@+id/lessonstype_prog"
+            android:title="Языки Программирования" />
+        <item android:id="@+id/lessonstype_game"
+            android:title="Игровые движки" />
+        <item android:id="@+id/lessonstype_3d"
+            android:title="3D моделирование" />
+    </group>
+
+    <group android:id="@+id/news_menu">
+        <item
+            android:title="бла бла бла бла бла" />
+    </group>
+
+</menu>

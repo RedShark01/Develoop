@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tb_basicLessonToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/lessons_title"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/python"
+        android:paddingTop="100dp"
+        android:text="Python"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@android:color/primary_text_dark"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/lessons_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Перед началом работы"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/python_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Дополнительные материалы для изучения" />
+
+            <Button
+                android:id="@+id/python_1_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Что такое Python" />
+
+            <Button
+                android:id="@+id/python_1_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Где используется Python. Профессии" />
+
+            <Button
+                android:id="@+id/python_1_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Установка IDE" />
+
+            <TextView
+                android:id="@+id/tv_pythonbase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Основы"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/cpp_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Первая программа" />
+
+            <Button
+                android:id="@+id/cpp_2_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Синтаксис языка" />
+
+            <Button
+                android:id="@+id/cpp_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Условные операторы if() и else()" />
+
+            <Button
+                android:id="@+id/cpp_2_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Циклы" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Blueprint"
+                android:textSize="24sp" />
+
+            <Button
+                android:id="@+id/ue4_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Создание обьекта. Основные классы" />
+
+            <Button
+                android:id="@+id/ue4_3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Что такое Blueprint. Основы" />
+
+            <Button
+                android:id="@+id/ue4_3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="бла бла бла" />
+
+            <Button
+                android:id="@+id/ue4_3_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="бла бла бла бла" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
